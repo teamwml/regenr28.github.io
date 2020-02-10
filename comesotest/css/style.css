@@ -18,20 +18,7 @@ body {
 #navbarTogglerDemo03.show {
 	display:block !important;
 }
-/* .customnav {
-	height:56px;
-	font-size: 30px;
-	color:white;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}
-.customnav .col-6:nth-child(1) {
-	text-align: left;
-}
-.customnav .col-6:nth-child(2) {
-	text-align: right;
-} */
+
 .signout {
 	font-size:30px;
 	color:white;
@@ -40,9 +27,7 @@ body {
 .navbar > div{
 	width:100%;
 }
-/* .customnav > div { 
-	width:100%;
-} */
+
 .dashboard-row {
 	height:100%;
 }
@@ -78,6 +63,8 @@ body {
 	color:#dedede;
 	height:8.3%;
 	border-bottom: 1px solid #dadada;
+	display: flex;
+    align-items: center;
 }
 .sidebar .nav-item a{
 color:#484848;
@@ -85,7 +72,7 @@ color:#484848;
 .sidebar .nav-item svg{
 color:#046fa6;
 }
-.sidebar .nav-item:hover{
+.sidebar .nav-item:nth-child(-n + 2):hover{
 	border-left: 4px solid #ddd;
 	background-color: #ddd;
 }
